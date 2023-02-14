@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sopranos || Questionnaire</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="questionary.html">Questionnaire</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="related_pages.html">Related</a></li>
+            </ul>
+        </nav>
+        <h1>Series questionnaire</h1>
+    </header>
+    <main>
+        <p>
+            This is just a small questionnaire to share your thoughts about the show and what you liked the most about it. You can also answer some optional fields related to website feedback. Thank you very much for visiting this page!
+        </p>
+        <form action="home.html" method="Post">
+            <fieldset>
+                <div id="favs">
+                    <label for="fav_char">Favorite character</label>
+                    <input type="text" id="fav_char" name="fav_char" maxlength="30" minlength="4" required>
+                    <label for="fav_ep">Favorite Episode</label>
+                    <input type="text" id="fav_ep" name="fav_char" maxlength="20" minlength="4" required>
+                </div>
+                <div id="textarea">
+                    <label for="comments">Share some of your thoughts on the show and personal experiences with it.</label>
+                    <textarea name="comments" id="comments" cols="50" rows="12"></textarea>
+                </div>
+                <div>
+                    <label for="best_show">Do you consider The Sopranos the best Tv show of all time?</label>
+                    <input type="checkbox" id="best_show" name="best" value="Yes">
+                </div>
+                <div>
+                <button>Submit</button>
+                </div>
+            </fieldset>
+        </form>
+   </main>
+</body>
+</html>
